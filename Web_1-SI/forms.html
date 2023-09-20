@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>learning HTML forms</title>
+</head>
+<body>
+    <form action="/process.php">
+        <!-- Input type text -->
+        <label for="fname">First name</label><br>
+       <input type="text" name="fname"><br>
+       <label for="lname">Last name</label><br>
+       <input type="text" name="lname"><br><br>
+
+       <!-- Input type email -->
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email"><br>
+       <!-- Input type password -->
+       <label for="password">Password</label><br>
+       <input type="password" id="password" name="password"><br><br>
+
+       <!-- Input type date -->
+       <label for="birthdate">Birthdate</label><br>
+       <input type="date" id="birthdate" name="birthdate"><br><br>
+
+       <!-- Select element -->
+       <label for="major">Major</label><br>
+       <select id="major" name="major"> 
+           <option value="Informatics Engineering">Informatics Engineering</option>
+           <option value="Information System">Information System</option>
+           <option value="Accounting">Accounting</option>
+           <option value="Management">Management</option>
+        </select><br>
+
+        <!-- Textarea element -->
+        <p><strong>comment down below</strong></p>
+        <textarea name="comment" rows="10" cols="30">
+            
+        </textarea>
+         
+
+       <!-- Input type radio -->
+       <p>Choose your gender:</p>
+       <input type="radio" id="male" name="gender" value="male">
+       <label for="male">male</label>
+       <input type="radio" id="female" name="gender" value="Female">
+       <label for="female">Female</label><br><br>
+       <!-- Input type checkbox -->
+       <p>Choose your hobbies</p>
+       <input type="checkbox" id="singing" name="hobby1" value="Singing">
+       <label for="singing">Singing</label><br>
+       <input type="checkbox" id="drawing" name="hobby2" value="Drawing">
+       <label for="drawing">Drawing</label><br>
+       <input type="checkbox" id="football" name="hobby3" value="Footbal">
+       <label for="footbal">Footbal</label><br>
+       <input type="checkbox" id="basketball" name="hobby4" value="playing basketball">
+       <laber for="playing basketball">Playing Basketball</laber><br><br>
+
+       <!-- Input type submite -->
+       <input type="submit">
+    </form>
+</body>
+</html>
